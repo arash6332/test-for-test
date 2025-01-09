@@ -1,0 +1,25 @@
+// Import components as needed
+import { Button } from "@inkonchain/ink-kit";
+
+function App() {
+  return (
+    <div>
+      <Button onClick={() => {}} size="md" variant="secondary">
+        Ship It
+      </Button>
+    </div>
+  );
+}
+// Import styles first at the root of your project (required)
+import "@inkonchain/ink-kit/style.css";
+npm install @inkonchain/ink-kit
+# or
+pnpm install @inkonchain/ink-kit
+<html class="ink:dark-theme">
+  ...
+const theme = getMyCurrentTheme();
+useInkThemeClass(theme === "light" ? "ink:neo-theme" : "ink:dark-theme");
+:root {
+  --ink-button-primary: rgb(10, 55, 10);
+  ...
+}
