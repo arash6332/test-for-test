@@ -2,13 +2,7 @@
 import { Button } from "@inkonchain/ink-kit";
 
 function App() {
-  return (
-    <div>
-      <Button onClick={() => {}} size="md" variant="secondary">
-        Ship It
-      </Button>
-    </div>
-  );
+
 }
 // Import styles first at the root of your project (required)
 import "@inkonchain/ink-kit/style.css";
@@ -23,3 +17,10 @@ useInkThemeClass(theme === "light" ? "ink:neo-theme" : "ink:dark-theme");
   --ink-button-primary: rgb(10, 55, 10);
   ...
 }
+  return (
+    <div>
+      <Button onClick={() => {}} size="md" variant="secondary">
+        Ship It
+      </Button>
+    </div>
+  );
